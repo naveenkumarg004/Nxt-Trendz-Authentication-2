@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+
+.product-cart-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 70vh;
+}
+.product-cart-pic {
+  width: 80%;
+  height: 70%;
+}
+@media screen and (min-width: 768px) {
+  .product-cart-pic {
+    width: 600px;
+  }
+}
